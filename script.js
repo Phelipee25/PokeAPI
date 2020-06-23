@@ -1,10 +1,10 @@
 async function confirmaPKM(){
-    let pkm = document.getElementById("busca").value
+    let pkm = document.getElementById("busca").value.toLowerCase()
     // console.log(pkm)
     axios.get(`https://pokeapi.co/api/v2/pokemon/${pkm}`)
     .then ((resposta)=>{
         let pokemon = resposta.data
-        let nome = pokemon.name.toLowerCase()
+        let nome = pokemon.name
         let id= pokemon.id.toString()
         mostraNome(nome)
         mostraImg(id)
