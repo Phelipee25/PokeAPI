@@ -1,0 +1,25 @@
+@font-face{
+    font-family: Pokemon;
+    src: url("fonts/Pokemon\ Solid.ttf")
+}
+body{
+    text-align: center;
+    background-color: red;
+}
+#botao{
+    border-radius: 100%;
+}
+#titulo{
+    font-family: Pokemon;
+    color: yellow;
+    font-size: 70px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: royalblue;
+}
+#imgDoPKM{
+    width: 260px;
+    height: 260px;
+}
+#NomePKM{
+    text-size-adjust: 35px;
+}
