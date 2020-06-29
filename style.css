@@ -1,4 +1,4 @@
-@font-face{
+/* @font-face{
     font-family: Pokemon;
     src: url("fonts/Pokemon\ Solid.ttf")
 }
@@ -22,4 +22,131 @@ body{
 }
 #NomePKM{
     text-size-adjust: 35px;
+} */
+
+#corpo {
+    
+    background-color: rgb(128, 255, 255);
+    text-align: center;
+}
+.imagem{
+    margin: 0 auto;
+    position: relative;
+    width: 650px;
+}
+#dex {
+    height: 450px;
+    width: 650px;
+}
+@Font-Face{
+    font-family: "Pokemon Solid";
+    src: url("fonts/Pokemon\ Solid.ttf")
+    
+}
+
+#cabecalho1{
+    font-family: "Pokemon Solid";
+    color: yellow;
+    font-size: 50px;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+/* #posicionamentoRight{
+    position: absolute;
+    top:35em;
+    left:39.5em;
+    top: 90.1%;
+    left: 46.7%;
+    transform: translate(-50%, -50%);
+}
+#posicionamentoLeft{
+    position: absolute;
+    top:35em;
+    left:39.5em;
+    top: 90.1%;
+    left: 43.8%;
+    transform: translate(-50%, -50%);
+}
+#posicionamentoTop{
+    position: absolute;
+    top:35em;
+    left:39.5em;
+    top: 86.9%;
+    left: 45.3%;
+    transform: translate(-50%, -50%);
+}
+#posicionamentoDown{
+    position: absolute;
+    top:35em;
+    left:39.5em;
+    top: 93%;
+    left: 45.3%;
+    transform: translate(-50%, -50%); */
+/* } */
+#chamaPKM{
+    background: transparent;
+    border: none;
+}
+#busca{
+    border-radius: 5px;
+    background: transparent;
+    width: 82.5px;
+    height: 34px;
+    position: absolute;
+    top: 77.5%;
+    left: 17.2%;
+}
+#confirma{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    position: absolute;
+    top: 68%;
+    left: 11.9%;
+}
+#imgDoPKM{
+    position: absolute;
+    top: 29%;
+    left: 25%;
+    min-width: 70px;
+    min-height: 70px;
+    width: 120px;
+    height: 120px;
+}
+#nomePKM{
+    font-family: "Pokemon Solid";
+    width: 100px;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+}
+#type{
+    text-align: left;
+    font-family: "Pokemon Solid";
+    width: 100px;
+    position: absolute;
+    top: 25%;
+    left: 58%;
+}
+#ability{
+    text-align: left;
+    font-family: "Pokemon Solid";
+    width: 100px;
+    position: absolute;
+    top: 45%;
+    left: 58%;
+}
+#trocaHabilidadePKM{
+    position: absolute;
+    top: 74%;
+    left: 66%;
+    border-radius: 30%;
+    border: none;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+
 }

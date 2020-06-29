@@ -8,16 +8,46 @@
     <title>Super Pokedex</title>
 </head>
 <body>
-    <div><h1 id="titulo">Super Pokedex</h1></div>
-    <div><input class="form-control" id="busca" type="text" placeholder="Digite o Id ou Nome aqui!">
-        <button class="btn btn-outline-secondary" type="button" id="botao" onclick="confirmaPKM()">Confirma</button></div>
-    <div><h3 id="NomePKM"></h3><img id="imgDoPKM" src="pokebola.png"></div>
+    <body id="corpo">
+        <h1 id="cabecalho1">Super PokeDex</h1>
+        <hr>
+        <div class="container">
+            <div class="imagem"><img id="dex" src="pokedexnova.png">
+                <div><input class='col s9 m9 l9' id="busca" type="text" placeholder="Digite ID Aqui">
+                    <div><img id="imgDoPKM" src="pokebola.png">
+                        <div><p id="nomePKM"></p>
+                            <div><p id="ability">Habilidades</p>
+                                <div id="tipoPKM"><p id="type">Tipos</p>
+                                    <div><button id="confirma" type="button" onclick="confirmaPKM()">O</button>
+                                        <div id="posicionamentoRight">
+                                        <!-- <button id="chamaPKM" onclick="chamapkm()">→</button> -->
+                                            <div id="posicionamentoLeft">
+                                            <!-- <button id="chamaPKM" onclick="chamapkm()">←</button> -->
+                                                <div id="posicionamentoTop">
+                                                <!-- <button id="chamaPKM" onclick="chamapkm()">↑</button> -->
+                                                    <div id="posicionamentoDown">
+                                                    <!-- <button id="chamaPKM" onclick="chamapkm()">↓</button> -->
+                                                        <div>
+                                                            <button id="trocaHabilidadePKM" type ="button" onclick="trocaTipo()"></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <script src="jquery/jquery.slim.js"></script>
-    <script type="text/javascript" src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     
 </body>
 </html>
