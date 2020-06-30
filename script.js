@@ -84,7 +84,17 @@ function trocaTipo(){
     let indiceDaHabilidadeAtual = PKM.habilidade.indexOf(nomeDaHabilidade)
     let novoIndice = indiceDaHabilidadeAtual + 1
     if(novoIndice>=PKM.habilidade.length){
-        novoIndice = 0
+        return
+    }
+    trocaHabilidadePkm.innerText = PKM.habilidade[novoIndice]
+}
+function voltaTipo(){
+    let trocaHabilidadePkm = document.getElementById("ability")
+    let nomeDaHabilidade = trocaHabilidadePkm.innerText
+    let indiceDaHabilidadeAtual = PKM.habilidade.indexOf(nomeDaHabilidade)
+    let novoIndice = indiceDaHabilidadeAtual - 1
+    if(novoIndice < 0){
+        return
     }
     trocaHabilidadePkm.innerText = PKM.habilidade[novoIndice]
 }

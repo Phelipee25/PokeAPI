@@ -150,3 +150,13 @@ body{
     height: 25px;
 
 }
+#voltaHabilidadePKM{
+    position: absolute;
+    top: 74%;
+    left: 61.5%;
+    border-radius: 30%;
+    border: none;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+}
