@@ -120,7 +120,7 @@ body{
     font-family: "Pokemon Solid";
     width: 100px;
     position: absolute;
-    top: 28%;
+    top: 30%;
     left: 12%;
 }
 #type{
@@ -128,7 +128,7 @@ body{
     font-family: "Pokemon Solid";
     width: 150px;
     position: absolute;
-    top: 29%;
+    top: 30%;
     left: 58%;
 }
 #ability{
